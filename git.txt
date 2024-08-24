@@ -1,0 +1,37 @@
+git init
+git clone https://github.com/rajasghyd/devops.git
+git config -global user.name “Rajasekhar Gajula”
+git config -global user.email gajula.rajasekhar@tcs.com
+
+Note: For All Variables use this
+https://git-scm.com/docs/git-config
+
+Customization Configurations: Click Here
+https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
+
+git config --global commit.template ~/.gitmessage.txt
+git config --global color.ui false  # color.*
+git config --global color.diff.meta "blue black bold" 
+curl --request GET \
+--url "https://api.github.com/octocat" \
+--header "Authorization: Bearer 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 " \
+--header "X-GitHub-Api-Version: 2022-11-28"
+git config --system receive.denyNonFastForwards true
+git config --global --add safe.directory /projects/devops
+git init
+git remote add origin <repo url>
+
+git add .
+git status
+git commit -m “commit msg”
+git log
+git remote add origin <repo url>
+git clone
+git push origin master
+git pull origin master
+git branch <branchname>
+git checkout <branchname>
+git merge <branchname>
+
+
+
