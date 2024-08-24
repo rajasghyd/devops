@@ -14,7 +14,7 @@ git config --global color.ui false  # color.*
 git config --global color.diff.meta "blue black bold" 
 curl --request GET \
 --url "https://api.github.com/octocat" \
---header "Authorization: Bearer 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 " \
+--header "Authorization: Bearer ACCESS_TOKEN" \
 --header "X-GitHub-Api-Version: 2022-11-28"
 git config --system receive.denyNonFastForwards true
 git config --global --add safe.directory /projects/devops
